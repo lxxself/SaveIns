@@ -1,8 +1,6 @@
 package com.lxxself.saveins;
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,13 +10,8 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.target.SizeReadyCallback;
-import com.bumptech.glide.util.ViewPreloadSizeProvider;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.util.List;
-
-import static java.lang.System.load;
 
 /**
  * Created by lxxself on 2016/11/5.
